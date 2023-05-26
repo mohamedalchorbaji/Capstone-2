@@ -77,7 +77,8 @@ select{
 }
 
 body{
-    background-image: url(/images/R.jfif)
+    /* background-image: url(/images/R.jfif) */
+    background-color: rgba(69, 127, 145, 0.863);
 }
 
 

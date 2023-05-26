@@ -25,6 +25,7 @@ select{
     display:inline;
     background: rgb(56, 122, 84);
     color:white;
+
 }
 option{
     color:black;
@@ -49,15 +50,14 @@ input[type=text] {
     font-size: larger;
     background-position: 10px 10px; 
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
     margin:2rem;
     border-radius: 1rem;
     
     background-color: rgb(56, 122, 84);
     
     
-  }
-  input::placeholder{
+}
+input::placeholder{
     color:white;
 }
 input{

@@ -45,12 +45,8 @@ nav a:hover{
 }
 select{
     margin:2rem;
-    border-radius: 1rem;
-    padding:1rem;
-    
-        font-size: larger;
-
-        border: 2px solid #333741;
+    font-size: larger;
+    border: 2px solid #333741;
 }
 #gif{
 

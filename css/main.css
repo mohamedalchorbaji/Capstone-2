@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+nav{
+    background-color: #dadadb;
+    border-radius: 30%;
+    
+
+}
+nav a{
+    color:rgb(15, 15, 15);
+    text-decoration: none;
+    display:inline-block;
+    font-size:large;
+    padding: 1rem;
+    margin-left: 20%;
+    border-radius: 30%;
+}
+nav a:hover{
+    color:black;
+    background-color:rgb(69, 109, 69);
+}
+.active{
+    color:black;
+    background-color: rgb(12, 5, 5);
+}
+#footer {
+    color:rgb(0, 0, 0);
+    background-color: #dadadb;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+.banner{
+    height:110px;
+    overflow:hidden;
+}
+.banner img{
+    height:400px;
+    width:100%
+}
+select{
+    margin:2rem;
+    border-radius: 1rem;
+    padding:1rem;
+    
+        font-size: larger;
+
+        border: 2px solid #333741;
+}
+#gif{
+
+    width:100%;
+
+
+}
+
+#gif img{
+    width:80%;
+    height: 400px;
+    margin-left:10vw;
+    margin-right:10vw;
+    border-radius: .5rem;
+
+    
+}
+
+.content{
+    padding: 3rem;
+}
+#footer{
+    position:relative;
+}
+
+body{
+    background-image: url(/images/R.jfif)
+}
+
+
+.main-content{
+    padding: 3rem;
+    background-color: #387a54;
+    width:80%;
+    margin:auto;
+    padding-top: 8vh;
+    border-radius: 30%;
+}

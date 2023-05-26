@@ -1,0 +1,71 @@
+thead{
+    width: 100%;
+    
+}
+th{
+    text-align: center;
+    padding-right:20vw;
+    background-color: #333741;
+    color:white;
+    font-size: larger;
+}
+td{
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    color:white;
+    
+}
+p{
+    display:inline;
+    padding-left: 1rem;
+    color: aliceblue;
+    
+}
+select{
+    display:inline;
+    background: rgb(56, 122, 84);
+    color:white;
+}
+option{
+    color:black;
+}
+.content{
+    display:inline-block;
+}
+
+img{
+    display: inline-block;
+}
+tbody{
+    background-color: transparent;
+}
+tbody tr:hover{
+    background-color: rgb(78, 116, 29);
+    color:black;
+}
+input[type=text] {
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: larger;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin:2rem;
+    border-radius: 1rem;
+    
+    background-color: rgb(56, 122, 84);
+    
+    
+  }
+  input::placeholder{
+    color:white;
+}
+input{
+    color:white;
+    border-radius: 1rem;
+    background: rgb(56, 122, 84);
+    border: 2px solid #333741;
+}
+
+
+

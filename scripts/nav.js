@@ -28,16 +28,6 @@ function navLink(item) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const image = document.createElement("img");
-    image.src = "FOG-FROM-CADILLAC-08062022_841-Pano-1_1.jpg";
-    image.alt = "Banner Image";
-    const banner = document.createElement("div")
-    banner.classList.add("banner");
-    banner.appendChild(image);
-    document.body.prepend(banner);
-
-
-
     const nav = document.getElementById("nav")
 
     navMenu.forEach((item) => nav.appendChild(navLink(item)));
